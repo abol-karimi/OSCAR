@@ -8,7 +8,6 @@ programs="apache imagemagick linux-module linux-vmlinux mplayer openblas postgre
 
 make
 mkdir -p out
-ulimit -n 1048576
 for program in $programs
 do
     echo Processing $program
